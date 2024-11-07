@@ -1,0 +1,374 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color:rgb(46, 46, 46);
+     transition: 2s linear;
+     text-transform: capitalize;
+}
+.bars{
+     display: none;
+}
+ header{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     padding: 0 7vw;
+     font-size: 10px;
+ 
+}
+header ul{
+     display: flex;
+     align-items: center;
+}
+header ul li:hover{
+     color: green;
+}
+.nav ul li{
+     padding: 0 15px;
+     font-size: 14px;
+     font-weight:bold;
+     cursor: pointer;
+}
+.home{
+     background-color: white;
+     padding: 0 9vw;
+}
+.main_slide{
+     display: flex;
+     align-items:center;
+     
+}
+.main_slide div:nth-child(0px){
+     flex: 50;
+     display: flex;
+     justify-content: center;
+     padding-top: 50px;
+     }
+     .main_slide div:nth-child(50){
+          padding-top: 10px;
+          flex: 50;
+          font-size: 30px;
+     }
+     .main_slide div:nth-child(50) span{
+          font-size: 30px;
+          padding:  20px 0;
+          font-weight: lighter;
+     }
+     .main_slide div:nth-child(50) h1{
+          font-size: 50px;
+          padding: 15px 0;
+          color: rgb(40, 125, 40);
+
+     }
+     .main_slide img{
+          width: 30vw;
+     }
+
+.red_btn{
+     margin-top: 20px;
+     cursor: pointer;
+     width:160px;
+     font-weight: bold;
+     color: whitesmoke;
+     height: 40px;
+background-color: rgb(43, 123, 43);
+border-radius: 7px;
+border: 5 solid rgb(43,123,43);
+box-shadow: 0 10px 15px rgb(43,123,43);
+}
+.main_slide2{
+margin: 80px 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.foodimg img{
+     width:30vw;
+     border-radius: 20%;
+margin-top: 20vw;
+margin-right: 20vw;
+}
+.question{
+     margin-right: 40px;
+     margin-top:20vw ;
+}
+.question h3{
+     color: rgb(37, 119, 37);
+     font-size: 30px;
+     margin-bottom: 30px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;    
+}
+.question h2{
+     font-weight: lighter;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.question p{
+font-size: 20px;
+font-weight: 5px;
+margin-top: 30px;
+color: rgb(101, 97, 97);
+}
+.white-btn{
+     margin-top: 50px;
+     cursor: pointer;
+     width:160px;
+     font-weight: bold;
+     color: whitesmoke;
+     height: 40px;
+background-color: rgb(43, 123, 43);
+border-radius: 7px;
+border: 5 solid rgb(43,123,43);
+box-shadow: 0 10px 15px rgb(43,123,43);
+}
+.food-items{ 
+     padding:5vw;
+     display: flex;
+     justify-content:center;
+     margin-top: 30px;
+     gap: 50px;
+     
+}
+.slide h4{
+     color: green;
+     text-align: center;
+     justify-items: center;
+     margin-right: 50px;
+     margin-bottom: 40px;
+     margin-top: 20vw;
+     font-size: 20px;
+}
+.slide h1{
+     text-align:center;
+     font-size: 40px;
+     font-family:'Times New Roman', Times, serif;
+     font-weight: 30px;
+}
+.cook-item p{
+     font-size: 15px;
+font-weight: 5px;
+margin-top: 30px;
+color: rgb(101, 97, 97);
+}
+.food-items p{
+     font-size: 15px;
+     font-weight: 5px;
+     margin-top: 30px;
+     color: rgb(101, 97, 97);
+}
+
+
+.main_slide3{
+     padding: 15px 9px;
+     padding-bottom: 100px;
+}
+.main_slide3 .heading{
+     text-align: center;
+     padding-bottom: 15px;
+     color: green;
+     font-size: 20px;
+}
+.main_slide3 .heading2{
+     text-align: center;
+     font-size: 50px;
+     color: rgb(62, 61, 61);
+     padding-bottom: 20px;
+}
+.main_slide3{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     position: relative;
+     z-index: 0;
+}
+.main_slide3 .fav-food{
+     margin: 80px 0px;
+     display: flex;
+     gap: 100px;
+     flex-wrap: wrap;
+     justify-content:space-evenly;
+     width:  89%;
+
+}
+.main_slide3 .fav-food .items{
+     background-color: rgb(246, 243, 238);
+     border-radius: 5px;
+     margin-bottom: 20px;
+     width: 220px;
+     padding-top: 20px;
+     text-align: center;
+     cursor: pointer;
+}
+.main_slide3 .fav-food .items div{
+     height: 160px;
+     margin-bottom: 15px;
+
+}
+.main_slide3 .fav-food .items img{
+     width: 160px;
+     margin-bottom: 10px;
+
+}
+.main_slide3 .fav-price{
+     font-size: 15px;
+     color: rgb(99, 158, 99);
+     font-weight: bold;
+}
+
+.main_slide4{
+     margin: 70px 0;
+     padding: 20px 0;
+}
+.main_slide4 .chef h4{
+     text-align: center;
+     font-size: 15px;
+     color: green;
+     margin-top: 30px;
+     margin-bottom: 20px;
+}
+.main_slide4 .chef h2{
+     text-align: center;
+     font-size: 40px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     font-weight: 30px;
+}
+.main_slide4 .chef p{
+     text-align:center;
+     font-size: 15px;
+     color: rgb(65, 63, 63);
+     margin-top: 20px;
+}
+.main_slide4 .chef .green_btn{
+     float: right;
+     margin-bottom: 50px;
+     cursor: pointer;
+     width:160px;
+     font-weight: bold;
+     color: whitesmoke;
+     height: 40px;
+background-color: rgb(43, 123, 43);
+border-radius: 7px;
+border: 5 solid rgb(43,123,43);
+box-shadow: 0 10px 15px rgb(43,123,43);
+}
+.content{
+     max-width: 1170px;
+     background: white;
+     margin: auto;
+}
+.footer{
+padding: 70px 0;
+}
+ul{
+     list-style: none;
+}
+.row{
+     display: flex;
+     flex-wrap: wrap;
+}
+.footer-col{
+     width: 25%;
+     padding: 0 15px;
+}
+.footer-col h4{
+     font-size: 18px;
+     color: rgb(60, 154, 60);
+     margin-bottom: 30px;
+     font-weight: 300px;
+     position: relative;
+}
+.footer-col h4::before{
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom:10px;
+     height: 2px;
+     box-sizing: border-box;
+     width:50px;
+
+}
+.footer-col ul li:not(:last-child){
+     margin-bottom: 10px;
+}
+.footer-col ul li a{
+     font-size: 16px;
+     text-transform: capitalize;
+     
+     text-decoration: none;
+     font-weight: 300;
+     display: block;
+     transition:all 0.3s ease;
+}
+.footer-col ul li a:hover{
+     color: rgb(71, 159, 49);
+     padding-left: 10px;
+}
+ 
+
+@media only screen and (max-width:765px){
+     header{
+          display: flex;
+          background-color: azure;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          right: 0;
+     }
+     .account{
+          padding: 0 10px;
+          position: fixed;
+     }
+}
+@media only screen and (max-width:550px){
+     .main_slide div:nth-child(50){
+          font-size: 18px;
+     }   
+
+.main_slide div:nth-child(50) h1{
+     padding-top: 5px;
+     margin: 10px 0;
+     font-size: 20px;
+}
+.main_slide div:nth-child(50) span{
+     padding-top: 5px;
+     margin: 10px 0;
+     font-size: 11px;
+}
+.red_btn{
+margin-top: 10px;
+width: 120px;
+height: 30px;
+font-size: 12px;
+padding: 0 10px;
+}
+}
+.main_slide div:nth-child(5px){
+     width: 70vw;
+}
+     .main_slide3{
+          margin-top: 100px;
+     }
+}
+     .main_slide3 .heading{
+          width: 50px;
+          margin-bottom: 10px;
+     }
+     
+
+@media only screen and(max-width:550px){
+     .question{
+     font-size:18px ;
+     width: 30px;
+margin: 10px 0;
+} 
+.foodimg img{
+     width: 40vw;
+}
+}    
+
